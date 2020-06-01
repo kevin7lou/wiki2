@@ -8,3 +8,7 @@ This procedure can be used to create websites for projects, users, and organizat
 
 Demo: https://kevin7lou.github.io/wiki/
 
+## Reference
+- https://github.com/kookma/Tiddlywiki-Travis-CI
+- https://github.com/danielo515/TW5-auto-publish2gh-pages
+- https://github.com/miRoox/wiki
