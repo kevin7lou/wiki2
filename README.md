@@ -6,5 +6,5 @@ Tiddlywiki under Node.js stores each tiddler in a separate file. A wiki can be h
 
 This procedure can be used to create websites for projects, users, and organizations.
 
-Demo: https://kookma.github.io/Tiddlywiki-Github-Pages-Travis-CI/
+Demo: https://kevin7lou.github.io/wiki/
 
