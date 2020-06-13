@@ -1,0 +1,27 @@
+caption: {{$:/_sq/Stories/icons/divert-right.svg}}
+created: 20170616074148780
+creator: Kevin
+description: divert right/left
+modified: 20200613004310019
+modifier: Kevin
+tags: $:/tags/EditToolbar
+title: $:/_sq/Stories/divertTiddlerEditMacro
+type: text/vnd.tiddlywiki
+
+\define divertTiddlerButton()
+<$set name="original" value={{!!draft.title}}>
+<$set name="otherStoryList"  filter="[enlist{$:/_sq/Stories/StoriesList!!list}] -[<tv-story-list>]" select="0">
+	<$button class=<<tv-config-toolbar-class>> tooltip="Divert this tiddler to the other story for viewing">
+		<$reveal state="$:/_sq/Stories/config/openLinkDivert" type="nomatch" text="top" default="top">
+			<$action-listops $tiddler=<<otherStoryList>> $subfilter="[<original>]"/>
+		</$reveal>
+		<$reveal state="$:/_sq/Stories/config/openLinkDivert" type="match" text="top" default="top">
+			<$action-listops $tiddler=<<otherStoryList>> $subfilter="+[prepend<original>]"/>
+		</$reveal>
+		<span class="sq-button-divert-right sq-button-divert">{{$:/_sq/Stories/icons/divert-right.svg}}</span><span class="sq-button-divert-left sq-button-divert">{{$:/_sq/Stories/icons/divert-left.svg}}</span>
+	</$button>
+</$set>
+</$set>
+\end
+
+<<divertTiddlerButton>>

@@ -1,0 +1,12 @@
+author: BramChen
+core-version: >=5.0.8
+created: 20200613002811087
+dependents: $:/languages/zh-Hans
+description: Chinese (China)
+modified: 20200613002811087
+name: zh-CN
+plugin-priority: 110
+plugin-type: language
+title: $:/languages/zh-CN
+type: application/json
+version: 5.1.22

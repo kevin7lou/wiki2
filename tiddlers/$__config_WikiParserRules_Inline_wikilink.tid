@@ -1,6 +1,6 @@
 created: 20190404131950196
-modified: 20190404131951250
+modified: 20200613004940843
 title: $:/config/WikiParserRules/Inline/wikilink
 type: text/vnd.tiddlywiki
 
-disable
+enable

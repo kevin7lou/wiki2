@@ -1,13 +1,14 @@
-author: JeremyRuston
-created: 20190404125926995
+created: 20200613003137553
 dependents: 
-description: CodeMirror Mode: CSS Highlighting
+description: CSS highlighting mode for CodeMirror
 list: readme
-modified: 20190404125926995
+modified: 20200613003137553
+name: CodeMirror Mode CSS
+parent-plugin: $:/plugins/tiddlywiki/codemirror
 plugin-type: plugin
 title: $:/plugins/tiddlywiki/codemirror-mode-css
 type: application/json
-version: 5.1.18-prerelease
+version: 5.1.22
 
 {
     "tiddlers": {
