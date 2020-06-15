@@ -1,0 +1,13 @@
+created: 20200615000142546
+modified: 20200615000556334
+tags: start
+title: Welcome to Memory Palace
+type: text/vnd.tiddlywiki
+
+欢迎来到我的Wiki
+
+<<alert warning "''Note'': The above configuration file uses the latest Tiddlywiki 5 prerelease for building the wiki.">>
+
+<<alert info"''Important Note'': This wiki uses automatic making websites from __individual tiddlers__ using Travis-CI on GitHub Pages, for Tiddlywiki single file application, see [[Tiddlywiki-and-GitHub-Pages|https://kookma.github.io/Tiddlywiki-and-GitHub-Pages/]]">>
+
+{{More Information}}
