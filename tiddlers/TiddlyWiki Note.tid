@@ -1,7 +1,11 @@
-created: 20200614085209242
-modified: 20200614094648817
-tags: 工具软件 TiddlyWiki
-title: TiddlyWiki相关
+caption: TiddlyWiki相关
+color: #80ffff
+created: 20200616025614813
+creator: Kevin
+modified: 20200616030940200
+modifier: Kevin
+tags: SoftwareTool
+title: TiddlyWiki Note
 type: text/vnd.tiddlywiki
 
 ! 如何部署在GitHub上

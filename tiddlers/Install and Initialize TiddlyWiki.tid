@@ -1,0 +1,37 @@
+caption: 安装及初始化 TiddlyWiki
+created: 20200616024507535
+creator: Kevin
+modified: 20200616030435150
+modifier: Kevin
+tags: [[TiddlyWiki Note]]
+title: Install and Initialize TiddlyWiki
+type: text/vnd.tiddlywiki
+
+! 安装及初始化 TiddlyWiki
+
+首先你需要安装 TiddlyWiki 的 Node.js 命令行程序：
+
+```cmd
+$ sudo npm install -g tiddlywiki
+```
+
+然后建立一个新的 Wiki 项目：
+
+```cmd
+$ cd /home/onlyice/Dropbox/Journey
+$ tiddlywiki Wiki --init full
+```
+
+然后就可以运行 tiddlywiki 了：
+
+```cmd
+$ tiddlywiki --server
+```
+
+打开 http://127.0.0.1:8080 可以看到 Wiki 界面。
+
+它的 [[GitHub 页面|https://github.com/Jermolene/TiddlyWiki5]] 上有详细的说明。
+
+在 `Dropbox/Journey/Wiki/tiddlywiki.html` 放了 [[TiddlyWiki 官网|http://tiddlywiki.com/]] 的离线文件，用来做文档参考。
+
+<$macrocall $name=".tip" _="""这篇 tiddler 用了 `list-before` 宏，并赋给它一个空值，用于使它在 `<<list-links "[tag[TiddlyWiki]]">>` 中置于首位。"""/>
