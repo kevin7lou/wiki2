@@ -1,12 +1,16 @@
 language: node_js
 node_js:
-  - "11"
-dist: trusty
-sudo: false
+  - "12"
+# dist: trusty
+# sudo: false
+
+cache:
+  directories:
+    - "node_modules"
 
 branches:
   only:
-  - master
+    - master
 
 install:
   - git clone --depth 1 https://github.com/Jermolene/TiddlyWiki5.git
@@ -21,7 +25,8 @@ deploy:
   provider: pages
   edge: true
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  target_branch: gh-pages
+  token: $GITHUB_TOKEN
   local_dir: output
   on:
     branch: master
