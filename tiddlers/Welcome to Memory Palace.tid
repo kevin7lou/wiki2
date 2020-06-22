@@ -1,11 +1,11 @@
 caption: Welcome to Memory Palace
 created: 20200615000142546
-modified: 20200616030757960
+modified: 20200622174827354
 tags: Welcome
 title: Welcome to Memory Palace
 type: text/vnd.tiddlywiki
 
-欢迎来到我的Wiki
+您好，欢迎来到我的Wiki！
 
 <<alert warning "''Note'': The above configuration file uses the latest Tiddlywiki 5 prerelease for building the wiki.">>
 
