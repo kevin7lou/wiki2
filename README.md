@@ -1,4 +1,4 @@
-# My Personal Wiki
+# 📚 My Personal Wiki
 [![Build Status](https://travis-ci.com/kevin7lou/wiki.svg?branch=master)](https://travis-ci.com/kevin7lou/wiki)
 [![GitHub license](https://img.shields.io/github/license/kevin7lou/wiki)](https://github.com/kevin7lou/wiki/blob/master/LICENSE)
 [![GitHub repo size](https://img.shields.io/github/repo-size/kevin7lou/wiki?logoColor=orange)](https://github.com/kevin7lou/wiki.git)
